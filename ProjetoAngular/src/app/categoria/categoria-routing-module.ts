@@ -6,11 +6,11 @@ import {Listagem} from './listagem/listagem';
 
 const routes: Routes = [
 {
- path: 'cadastro', component:Cadastro
+ path: 'cadastro', component: Cadastro
 },
 {
-  path:'listagem', component:Listagem
-},
+  path:'listagem', component: Listagem
+}
 ];
 
 @NgModule({
