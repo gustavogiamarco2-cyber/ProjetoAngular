@@ -5,7 +5,7 @@ import {Cadastro} from './cadastro/cadastro';
 const routes: Routes = [
   {
    path: 'cadastro', component:Cadastro
-  },
+  }
 ];
 
 @NgModule({
