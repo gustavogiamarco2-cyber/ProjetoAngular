@@ -1,0 +1,29 @@
+<h2>Login</h2>
+
+<label for="usuario">Usuário:</label>
+
+<input
+  id="usuario"
+  type="text"
+  [(ngModel)]="usuario"
+>
+
+<br><br>
+
+<label for="senha">Senha:</label>
+
+<input
+  id="senha"
+  type="password"
+  [(ngModel)]="senha"
+>
+
+<br><br>
+
+<button
+  (click)="entrar()"
+  [disabled]="usuario === '' || senha === ''">
+  Entrar
+</button>
+
+<p>{{ mensagem }}</p>
