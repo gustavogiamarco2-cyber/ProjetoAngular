@@ -14,6 +14,10 @@ const routes: Routes = [
   {
     path: 'lista',
     loadChildren: () => import('./lista/lista-module').then(m => m.ListaModule)
+},
+{
+  path: 'listaexercicio2',
+  loadChildren: () => import('./listaexercicio2/listaexercicio2-module').then(m => m.Listaexercicio2Module)
 }
 ];
 
