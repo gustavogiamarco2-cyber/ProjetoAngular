@@ -6,6 +6,8 @@ import { Campotexto } from './campotexto/campotexto';
 import { Ex02 } from './ex02/ex02';
 import { Ex03 } from './ex03/ex03';
 import { Ex04 } from './ex04/ex04';
+import { Ex05 } from './ex05/ex05';
+import { Ex06 } from './ex06/ex06';
 
 const routes: Routes = [
   {
@@ -27,6 +29,14 @@ const routes: Routes = [
   {
     path: 'ex04',
     component: Ex04
+  },
+  {
+    path: 'ex05',
+    component: Ex05
+  },
+  {
+    path: 'ex06',
+    component: Ex06
   }
 ];
 
