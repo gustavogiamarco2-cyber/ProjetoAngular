@@ -7,7 +7,8 @@ import { Component, signal } from '@angular/core';
   styleUrl: './app.scss'
 })
 export class App {
+
   protected readonly title = signal('ProjetoAngular');
 
-  topo = "Loja Angular2"
+  loja = 'Loja Angular Pai';
 }
